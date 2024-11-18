@@ -1,0 +1,108 @@
+/* Container for the slider */
+.slider-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Style for each slide */
+  .each-slide {
+    position: relative;
+  }
+  
+  /* Background image styles for each slide */
+  .slide-background {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+  }
+  
+  /* Overlay for text and styling */
+  .overlay {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    max-width: 200px;
+  }
+  
+  .overlay h2 {
+    font-size: 1.8em;
+    margin: 0;
+  }
+  
+  .overlay p {
+    font-size: 1.2em;
+    margin-top: 5px;
+  }
+  
+  .custom-arrow {
+    font-size: 2em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background-color 0.3s ease;
+    margin:0px 12px;
+  }
+  
+  .custom-prev {
+    left: 10px;
+  }
+  
+  .custom-next {
+    right: 10px;
+  }
+  
+  .custom-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    .slide-background {
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .slide-background {
+      height: 250px;
+    }
+    .overlay h2 {
+      font-size: 1.5em;
+    }
+    .overlay p {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .slide-background {
+      height: 200px;
+    }
+    .overlay h2 {
+      font-size: 1.2em;
+    }
+    .overlay p {
+      font-size: 0.9em;
+    }
+  }

@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .top-bar {
+        display: none;
+    }
+}
+
+
+.main-nav {
+    position: sticky;
+    top: 0;
+    z-index: 50; /* Ensure it stays above other elements */
+    background-color: white; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
