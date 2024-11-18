@@ -51,15 +51,6 @@ const ScrollToTopButton = () => {
           <FaWhatsapp className="w-6 h-6" />
         </a>
         
-        <a
-          href="https://www.instagram.com/yourusername/" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-[#E4405F] text-white p-4 rounded-full shadow-lg hover:bg-[#C13584] transition duration-300 w-14 h-14 flex items-center justify-center"
-          aria-label="Instagram"
-        >
-          <FaInstagram className="w-6 h-6" />
-        </a>
 
         </div>
 
