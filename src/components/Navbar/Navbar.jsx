@@ -3,7 +3,7 @@ import { IoLocationSharp } from 'react-icons/io5';
 import { IoMdCall } from 'react-icons/io';
 import { MdEmail } from 'react-icons/md';
 import { FaInstagram } from "react-icons/fa";
-import mainLogo from "../../assets/image/mainLogo.webp";
+import mainLogo from "../../assets/image/mainLogo.jpg";
 import "./Navbar.css"
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
@@ -52,7 +52,7 @@ const Navbar = () => {
         className="w-24 h-24 rounded-full"
       />
       <span className="text-xl font-bold transition duration-300 cursor-pointer">
-        Karim Kamzung
+      GeutariEntrümpelung
       </span>
     </div>
 
