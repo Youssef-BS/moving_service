@@ -52,7 +52,7 @@ const Navbar = () => {
         className="w-24 h-24 rounded-full"
       />
       <span className="text-xl font-bold transition duration-300 cursor-pointer">
-      GeutariEntrümpelung
+      KAEntrümpelung
       </span>
     </div>
 
