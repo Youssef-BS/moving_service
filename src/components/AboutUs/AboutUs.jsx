@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import imgGermany from "../../assets/image/germany.png";
 
 const AboutUs = () => {
   // Hook to detect when the component is in view
@@ -83,9 +84,9 @@ const AboutUs = () => {
         variants={fadeInVariant}
       >
         <img
-          src="https://cebeci-dienstleistung.de/img/about2.jpg"
+          src={imgGermany}
           alt="About Us"
-          className="rounded-xl shadow-lg w-full md:w-[80%] lg:w-[90%] object-cover hover:scale-[1.01] transition-transform duration-300"
+          className="rounded-xl w-full md:w-[80%] lg:w-[90%] object-cover hover:scale-[1.01] transition-transform duration-300"
         />
       </motion.div>
     </motion.div>
