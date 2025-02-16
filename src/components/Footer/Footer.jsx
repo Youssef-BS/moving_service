@@ -93,7 +93,10 @@ const Footer = () => {
         </motion.div>
       </div>
       <motion.p className="text-center mt-8" variants={itemVariants}>
-        &copy; 2024 - All rights reserved.
+        &copy; 2025 - All rights reserved By <br /><a href="https://tn.linkedin.com/in/youssef-ben-said-13051122b?trk=people-guest_people_search-card" target="_blank" rel="noopener noreferrer">
+  Youssef Ben Said
+</a>
+
       </motion.p>
     </motion.footer>
   );
