@@ -72,9 +72,12 @@ const Intro = () => {
               <button className="px-6 py-3 bg-blue-800 hover:bg-blue-950 text-white rounded-full shadow-lg font-medium transition duration-300">
                 Ein Angebot bekommen
               </button>
+              <a href="#contact">
               <button className="px-6 py-3 bg-gray-700 hover:bg-gray-900 text-white rounded-full shadow-lg font-medium transition duration-300">
                 Kontakt
               </button>
+              </a>
+              
             </div>
           </div>
         </div>
