@@ -11,16 +11,27 @@ import ScrollToTopButton from "./components/scrollToTop/ScrollToTop";
 function App() {
   return (
     <div className="App">
-<Navbar />
-<Intro />
-<AboutUs />
-<FeaturesSection />
-<ServiceGrid />
-<ContactSection />
-<Footer />
-<ScrollToTopButton />
+      <Navbar />
+      <div id="intro">
+        <Intro />
+      </div>
+      <div id="about">
+        <AboutUs />
+      </div>
+      <div id="features">
+        <FeaturesSection />
+      </div>
+      <div id="services">
+        <ServiceGrid />
+      </div>
+      <div id="contact">
+        <ContactSection />
+      </div>
+      <Footer />
+      <ScrollToTopButton />
     </div>
   );
 }
 
 export default App;
+
